@@ -5,10 +5,10 @@ Fiz a persistência dos dados em um arquivo JSON, devido ao tempo de implementa�
 
 Está dividido em 4 projetos:
 
-Application - Aplicação principal, contendo os controllers com os métodos da API
-Core - onde estão os Dtos, Interface de service e DtosFactory
-Domain - As entidades e as interfaces de repositorio
-Infra - Implementação do Repositorio
+- Application - Aplicação principal, contendo os controllers com os métodos da API
+- Core - onde estão os Dtos, Interface de service e DtosFactory
+- Domain - As entidades e as interfaces de repositorio
+- Infra - Implementação do Repositorio
 
 
 # Executando o projeto
