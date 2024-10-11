@@ -17,15 +17,21 @@ No projeto principal (TesteCoordly) executar o comando dotnet run, ou no Visual 
 # Respostas das perguntas
 
 ------------------ PERGUNTA 1 --------------------------
-// Primeiramente eu criaria um indice com os campos do where e do order by
+
+- Primeiramente eu criaria um indice com os campos do where e do order by
 
 CREATE INDEX idx_orders ON Onrders(OrderDate, CustomerID
 
-// Segundo trocaria o SELECT * por somente as colunas a serem usadas na query e adicionaria uma paginação para trazer menos dados de cada vez
+- Segundo trocaria o SELECT * por somente as colunas a serem usadas na query e adicionaria uma paginação para trazer menos dados de cada vez
+  
 SELECT OrderID, CustomerID, OrderDate, OtherColumns
+
 FROM Orders
+
 WHERE OrderDate BETWEEN '2023-01-01' AND '2023-12-31'
+
 ORDER BY CustomerID
+
 OFFSET 0 ROWS FETCH NEXT 1000 ROWS ONLY;
 
 
