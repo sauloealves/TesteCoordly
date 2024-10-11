@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "TesteCoordly.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TesteCoordly.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TesteCoordly.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteCoordly.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/TesteCoordly.Domain.csproj",
+      "msbuildProject": "../Domain/TesteCoordly.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "TesteCoordly.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\saulo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\TestesEmpresa\\TesteCoordly\\TesteCoordly.Infra\\TesteCoordly.Infra.csproj",
+      "projectName": "TesteCoordly.Infra",
+      "projectPath": "D:\\TestesEmpresa\\TesteCoordly\\TesteCoordly.Infra\\TesteCoordly.Infra.csproj",
+      "packagesPath": "C:\\Users\\saulo\\.nuget\\packages\\",
+      "outputPath": "D:\\TestesEmpresa\\TesteCoordly\\TesteCoordly.Infra\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\saulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\TestesEmpresa\\TesteCoordly\\Domain\\TesteCoordly.Domain.csproj": {
+              "projectPath": "D:\\TestesEmpresa\\TesteCoordly\\Domain\\TesteCoordly.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

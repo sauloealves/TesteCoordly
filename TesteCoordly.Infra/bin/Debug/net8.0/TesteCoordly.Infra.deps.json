@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TesteCoordly.Infra/1.0.0": {
+        "dependencies": {
+          "TesteCoordly.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TesteCoordly.Infra.dll": {}
+        }
+      },
+      "TesteCoordly.Domain/1.0.0": {
+        "runtime": {
+          "TesteCoordly.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteCoordly.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TesteCoordly.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
