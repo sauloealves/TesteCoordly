@@ -11,5 +11,5 @@ Domain - As entidades e as interfaces de repositorio
 Infra - Implementação do Repositorio
 
 
-#Executando o projeto
+# Executando o projeto
 No projeto principal (TesteCoordly) executar o comando dotnet run, ou no Visual Studio, está setado como projeto principal e executar.
